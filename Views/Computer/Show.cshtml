@@ -1,0 +1,12 @@
+@model MvcLabManager.Models.Computer
+
+@{
+    ViewData["Title"] = $"Computador {Model.Id}";
+}
+<h1>@ViewData["Title"]</h1>
+
+<p>Id: @Model.Id</p>
+
+<p>RAM: @Model.Ram</p>
+
+<p>Processor: @Model.Processor</p>
