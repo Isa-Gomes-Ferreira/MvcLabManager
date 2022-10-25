@@ -6,7 +6,7 @@ public class Computer
     public string Ram { get; set; }
     public string Processor { get; set; }
 
-    public Computer(){}
+    public Computer() {}
 
     public Computer(int id, string ram, string processor)
     {
@@ -14,5 +14,4 @@ public class Computer
         Ram = ram;
         Processor = processor;
     }
-
 }
